@@ -3,7 +3,7 @@ A collection of JavaScript exercises and practice problems completed during my s
 
 ## 🌐 Project Link
 You can view the live design here: 
-👉 h
+👉  https://gaelvasbur.github.io/jsexercises-entrega-de-ejercicios/
 
 ---
 📌 *For educational purposes only.*
