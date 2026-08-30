@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 2: Click Counter</title>
+    <style>
+    
+        .btn-back {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            text-decoration: none;
+            color: #007BFF;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+        .btn-back:hover { text-decoration: underline; }
+
+        body { 
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            font-family: Arial, sans-serif;
+            background-color: #F4F6F7;
+        }
+        #counter {
+            font-size: 48px;
+            font-weight: bold;
+            color: #2C3E50;
+            margin-bottom: 20px;
+        }
+        button { 
+            padding: 15px 30px; 
+            font-size: 18px; 
+            cursor: pointer; 
+            background-color: #3498DB;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        button:hover {
+            background-color: #2980B9;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="btn-back">← Back to Home</a>
+
+    <div id="counter">Clics: 0</div>
+    <button id="btn-contar">Count clics</button>
+
+    <script src="js_exercise2.js"></script>
+</body>
+</html>
