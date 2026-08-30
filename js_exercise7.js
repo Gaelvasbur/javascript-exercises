@@ -7,8 +7,8 @@ function generateRandomPassword(passwordLength) {
     let generatedPassword = '';
     
     for (let i = 0; i < passwordLength; i++) {
-        const randomIndex = Math.floor(Math.random() * characters.length); //se consigue un numero y lo guarda en variable
-        generatedPassword += characters[randomIndex]; // el numero ej 10 20 y 30, lo procesa de forma individual, va a su letra y la concatena en generatedPassword, luego se olvida de ella va al 20 y obtiene su letra, y lo mismo con el 30, quedando un string de ej 3 letras guardado en la variable
+        const randomIndex = Math.floor(Math.random() * characters.length); 
+        generatedPassword += characters[randomIndex]; 
     }
     
     return generatedPassword;
