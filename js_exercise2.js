@@ -1,4 +1,4 @@
-const button = document.getElementById('btn-contar');
+const button = document.getElementById('count-btn');
 const counterText = document.getElementById('counter');
 
 let numberOfClicks = 0;
